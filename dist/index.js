@@ -1,4 +1,4 @@
-import handleError from '@gtamo/cli-handle-error';
+import handleError from '@gtamasmolnar/cli-handle-error';
 const unhandledError = () => {
     process.on('unhandledRejection', (err) => {
         handleError(`UNHANDLED ERROR`, err);

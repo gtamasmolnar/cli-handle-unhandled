@@ -1,12 +1,11 @@
 {
-	"name": "@gtamo/cli-handle-unhandled",
-	"version": "1.0.1",
+	"name": "@gtamasmolnar/cli-handle-unhandled",
+	"version": "1.0.7",
 	"description": "Crash on unhandled rejections in a Node.js CLI.",
 	"exports": "./dist/index.js",
 	"type": "module",
 	"keywords": [
-		"@gtamo/cli-handle-unhandled",
-		"gtamo",
+		"@gtamasmolnar/cli-handle-unhandled",
 		"gtamasmolnar"
 	],
 	"author": "Tamas Molnar",
@@ -15,7 +14,7 @@
 		"dist"
 	],
 	"dependencies": {
-		"@gtamo/cli-handle-error": "^1.0.1"
+		"@gtamasmolnar/cli-handle-error": "^1.0.6"
 	},
 	"devDependencies": {
 		"@types/node": "^18.15.3",
@@ -27,9 +26,9 @@
 		"eslint-plugin-node": "^11.1.0",
 		"eslint-plugin-prettier": "^4.2.1",
 		"eslint-plugin-simple-import-sort": "^10.0.0",
-		"prettier": "2.8.5",
+		"prettier": "2.8.7",
 		"ts-node": "^10.9.1",
-		"typescript": "^4.9.5"
+		"typescript": "^5.0.3"
 	},
 	"engines": {
 		"node": ">=18.0.0",

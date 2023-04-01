@@ -1,17 +1,17 @@
-# @gtamo/cli-handle-unhandled
+# @gtamasmolnar/cli-handle-unhandled
 
 > Custom error handleError for the script crash on unhandled rejections.
 
 ## Install
 
 ```sh
-npm install @gtamo/cli-handle-unhandled
+npm install @gtamasmolnar/cli-handle-unhandled
 ```
 
 ## Usage
 
 ```ts
-import unhandledError from '@gtamo/cli-handle-unhandled';
+import unhandledError from '@gtamasmolnar/cli-handle-unhandled';
 
 unhandledError();
 ```
